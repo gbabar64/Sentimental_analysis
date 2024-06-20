@@ -6,7 +6,6 @@ from process import pre_process, pro
 
 model = load_model("model_lstm.h5")
 
-
 stopwords = list(STOP_WORDS)
 
 # Create the app object
